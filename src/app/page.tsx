@@ -10,6 +10,7 @@ import Link from "next/link";
 import { Shield, Award, Users, ArrowRight } from "lucide-react";
 import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
+import Raison from "@/components/Raison";
 
 export default function HomePage() {
   return (
@@ -18,6 +19,7 @@ export default function HomePage() {
       <HeroCYDILY />
       <Chiffres />
       <About />
+      <Raison />
       <Why />
       <Services />
       <Testimonials />
