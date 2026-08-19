@@ -161,41 +161,46 @@ export default function Navbar() {
             </div>
           </div>
 
-          {/* DROPDOWN: DOMAINES D'INTERVENTION (REMPLACE SERVICES & SECTEURS) */}
+          {/* DROPDOWN: FORMATIONS */}
           <div className="group relative py-6 flex items-center gap-1 cursor-pointer hover:text-[#C5A059] transition-colors">
-            <span>Domaines d'intervention</span>
+            <span>Formations</span>
+
             <ChevronDown className="w-4 h-4 text-gray-500 group-hover:text-[#C5A059] transition-transform group-hover:rotate-180" />
 
             <div className="absolute top-full left-0 w-80 bg-white shadow-xl rounded-b-md border-t-2 border-[#C5A059] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 py-2 text-sm">
               <Link
-                href="#"
+                href="/formations/technicien-de-surface"
                 className="block px-4 py-2.5 text-gray-700 hover:bg-[#004d40]/5 hover:text-[#004d40] font-medium"
               >
-                Hygiène Hospitalière & Industrielle
+                Technicien de Surface
               </Link>
+
               <Link
-                href="#"
+                href="/formations/intendant-de-cuisine"
                 className="block px-4 py-2.5 text-gray-700 hover:bg-[#004d40]/5 hover:text-[#004d40] font-medium"
               >
-                Métiers Domestiques & Conciergerie
+                Intendant de Cuisine
               </Link>
+
               <Link
-                href="#"
+                href="/formations/housekeeping"
                 className="block px-4 py-2.5 text-gray-700 hover:bg-[#004d40]/5 hover:text-[#004d40] font-medium"
               >
-                Restauration & Hôtellerie
+                Housekeeping
               </Link>
+
               <Link
-                href="#"
+                href="/formations/aide-a-domicile"
                 className="block px-4 py-2.5 text-gray-700 hover:bg-[#004d40]/5 hover:text-[#004d40] font-medium"
               >
-                Audit & Formation Intra-entreprise
+                Aide à Domicile
               </Link>
+
               <Link
-                href="#"
+                href="/formations/excellence-comportementale"
                 className="block px-4 py-2.5 text-gray-700 hover:bg-[#004d40]/5 hover:text-[#004d40] font-medium"
               >
-                Insertion & Employabilité
+                Excellence Comportementale
               </Link>
             </div>
           </div>
@@ -204,7 +209,7 @@ export default function Navbar() {
             href="#"
             className="hover:text-[#C5A059] transition-colors py-2"
           >
-            Notre Pédagogie
+            Audit-Conseil Hygiène
           </Link>
 
           <Link
